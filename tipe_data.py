@@ -66,4 +66,16 @@ print(intersection)
 
 #Dictionary
 
-id = {"name":"andika bintang nursalih", "age":19, "isMarried":False}
+id = {"name":"andika bintang nursalih", "age":19, "isMarried":False,}
+id['job'] = 'flutter developer'
+
+print(id);
+
+del id['isMarried']
+
+print(id)
+
+id['isMaried'] = True
+
+print(id)
+
