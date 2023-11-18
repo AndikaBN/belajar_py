@@ -39,4 +39,23 @@ print('''
 string = 'belajar coding lah'
 print(string.replace("lah", "supaya bisa gapai cita2"))
 
+#Pengecekan String
+
+a = "ANBINDEV"
+print(a.isupper());
+print(a.islower());
+print(a.isalpha());
+print(a.isalnum());
+print(a.isdecimal());
+print(a.isspace());
+print(a.istitle());
+
+print(a.zfill(10))
+print(a.rjust(10))
+print(a.rjust(9 , 'a'))
+print(a.center(10 , '#'))
+
+print("Halo!\nKapan terakhir kali kita bertemu?\nKita bertemu hari Jum\'at yang lalu.")
+
+
 
